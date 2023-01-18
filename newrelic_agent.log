@@ -147,3 +147,112 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":24471,"time":"2023-01-18T17:59:53.166Z","msg":"Agent state changed from stopped to starting."}
 {"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":24471,"time":"2023-01-18T17:59:53.170Z","msg":"Starting New Relic for Node.js connection process."}
 {"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":24471,"time":"2023-01-18T17:59:53.170Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.178Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.222Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.224Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.240Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.246Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:12.246Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.391Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.430Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.432Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.446Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.449Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:12.449Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:15.257Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:15.257Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BU_3iVaBTQS8ADmnTDy8dm9jyEREAAgBAAAnIQEAAH35AgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:15.257Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:15.259Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:15.261Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:16.101Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:16.101Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BYYH3bOqYg6UADmnTDy8dN1jyEREAAgBAAAnIQEAAH4EAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:16.101Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:16.103Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:16.105Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32249,"time":"2023-01-18T19:09:16.262Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:09:17.107Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":40,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32260,"time":"2023-01-18T19:10:17.355Z","msg":"Transaction WebTransaction/NormalizedUri/* (4ed60b662e903173) contained 968 segments, only collecting the first 900","component":"Transaction Trace Aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.039Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.091Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.094Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.109Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.114Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32399,"time":"2023-01-18T19:11:05.114Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.130Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.177Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.179Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.195Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.199Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":32408,"time":"2023-01-18T19:11:05.199Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.234Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.277Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.279Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.293Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.298Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:44.298Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:47.759Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:47.759Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BeDDtB6qgfyyADmnTDy8dN1jyET4AAgBAAAnIQEAAAHVAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:47.759Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:47.760Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:47.763Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":469,"time":"2023-01-18T19:12:48.763Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.563Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.600Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.602Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.616Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.619Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:31.619Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.736Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.774Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.776Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.789Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.792Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:31.792Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:34.116Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:34.116Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BQEwGGL8nxApADmnTDy8dm9jyEU0AAgBAAAnIQEAAAKKAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:34.116Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:34.117Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:34.121Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":650,"time":"2023-01-18T19:13:35.121Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:35.785Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:35.786Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BaMVoGSYooZgADmnTDy8dN1jyEU0AAgBAAAnIQEAAAKVAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:35.786Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:35.787Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:35.789Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":661,"time":"2023-01-18T19:13:36.790Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.220Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.284Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.288Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.310Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.315Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11202,"time":"2023-01-18T20:09:56.315Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.430Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.470Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.472Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.486Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.490Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:01.490Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.624Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.669Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.670Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.685Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.689Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:01.689Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:04.325Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:04.325Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID Bfr6j4GCUcO3ADmnTDy8dN1jyFKQAAgBAAAnIQEAACvqAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:04.325Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:04.326Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:04.329Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:04.931Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:04.932Z","msg":"Connected to collector-003.newrelic.com:443 with agent run ID BWtFp7bIVzfXADmnTDy8dm9jyFKQAAgBAAAnIQEAACvfAgQ8vHPrAwAFOS44LjAAD0xBUFRPUC1NMDlEUEpGMgAKdmVyY2VsLXBvYw.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:04.932Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3778380/applications/1018983403","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:04.933Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:04.938Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11242,"time":"2023-01-18T20:10:05.330Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":11231,"time":"2023-01-18T20:10:05.940Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.350Z","msg":"Using New Relic for Node.js. Agent version: 9.8.0; Node version: v16.15.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.397Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.399Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.415Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.419Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"LAPTOP-M09DPJF2","pid":14403,"time":"2023-01-18T20:26:58.419Z","msg":"Agent state changed from starting to connecting."}

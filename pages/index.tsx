@@ -2,6 +2,7 @@ import type {GetServerSideProps, NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import axios from '../src/axios'
 
 interface HomeInterface {
   pokemon: {
@@ -79,15 +80,11 @@ export default Home
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
-  const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto')
-
-  const data = await response.json()
-
-  console.log({data})
+  const response = await axios.get('pokemon/ditto')
 
   return {
     props : {
-      pokemon: data
+      pokemon: response.data
     }
   }
 
