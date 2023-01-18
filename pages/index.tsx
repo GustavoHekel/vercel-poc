@@ -82,9 +82,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   const response = await fetch('https://pokeapi.co/api/v2/pokemon/ditto')
 
   const data = await response.json()
-
-  console.log({data})
-
+  
   return {
     props : {
       pokemon: data
