@@ -4,15 +4,12 @@ const instance = axios.create({
     baseURL: 'https://pokeapi.co/api/v2'
 })
 
-
 instance.interceptors.request.use((config) => {
-
     // @ts-ignore
     config.time = { startTime: new Date() }
-
     return config
 }, (error) => {
-    // console.log({error})
+    return Promise.reject(error)
 })
 
 instance.interceptors.response.use((response) => {
@@ -22,9 +19,7 @@ instance.interceptors.response.use((response) => {
     // @ts-ignore
     const duration = endTime - response.config.time.startTime
 
-    // console.log(response)
-
-    console.log({
+    console.info({
         baseUrl: response.config.baseURL,
         url: response.config.url,
         method: response.config.method,
@@ -35,7 +30,15 @@ instance.interceptors.response.use((response) => {
 
     return response
 }, (error) => {
-    // console.log({error})
+
+    console.error({
+        baseUrl: error.config.baseURL,
+        url: error.config.url,
+        method: error.config.method,
+        response: error.response
+    })
+
+    return Promise.reject(error)
 })
 
 export default instance

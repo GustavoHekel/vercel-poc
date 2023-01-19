@@ -80,7 +80,7 @@ export default Home
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
-  const response = await axios.get('pokemon/ditto')
+  const response = await axios.get('pokemon/pikachu')
 
   return {
     props : {
